@@ -14,6 +14,7 @@ function Hero() {
                 <p className='text-white'>Hi, I'm</p>
                 <h1 className='md:text-6xl text-4xl font-bold text-white'>Mohammed Althaf PP</h1>
                 <h2 className='md:text-4xl text-2xl font-bold text-gray-400'>Full Stack Developer</h2>
+                
                 {/* <p className='max-w-[700px] py-4 text-white'>
                     Passionate Self-taught Full Stack web developer specialising on MERN Stack with application development experience and well-versed in a variety of front-end and back-end technologies.Possess a solid commitment to the team environment and enjoy working as a team member and independently.
                 </p> */}

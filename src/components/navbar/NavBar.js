@@ -19,7 +19,7 @@ function NavBar() {
                 <a href="#skills" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out'>Skills</a>
                 <a href="#projects" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out'>Projects</a>
                 <a href="#contact" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out'>Contact</a>
-                <motion.a whileTap={{scale: 0.8}} href="#Download" className='ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>Download</motion.a>
+                <motion.a whileTap={{scale: 0.8}} href="#download" className='ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>Download</motion.a>
 
                 
             </div>
@@ -40,7 +40,7 @@ function NavBar() {
                 <a href="#skills" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out' onClick={()=> setIsActive(false)}>Skills</a>
                 <a href="#projects" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out' onClick={()=> setIsActive(false)}>Projects</a>
                 <a href="#contact" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out' onClick={()=> setIsActive(false)}>Contact</a>
-                <motion.a whileTap={{scale: 0.8}} href="#Download" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out' onClick={()=> setIsActive(false)}>Download</motion.a>
+                <motion.a whileTap={{scale: 0.8}} href="#download" className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out' onClick={()=> setIsActive(false)}>Download</motion.a>
 
 
                 </motion.div>
