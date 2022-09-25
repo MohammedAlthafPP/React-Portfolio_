@@ -1,10 +1,14 @@
 
 
-import Spline from '@splinetool/react-spline';
-import "./Spline.css"
+//import Spline from '@splinetool/react-spline';
+//import "./Spline.css"
+import Particles from '../Particle';
 
 export default function App() {
   return (
-    <Spline scene="https://prod.spline.design/HBTkpZU6UYtNCQd2/scene.splinecode" />
+    <>
+    <Particles/>
+    </>
+    // <Spline scene="https://prod.spline.design/HBTkpZU6UYtNCQd2/scene.splinecode" />
   );
 }
