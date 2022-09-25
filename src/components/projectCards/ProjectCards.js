@@ -9,7 +9,7 @@ function ProjectCards({project}) {
         <div key={project.id} className='border border-zinc-800 rounded-md p-2 min-w-[275px] md:max-w-[275px] hover:border-zinc-600 duration-100 ease-in-out '> 
        <a href={project.live}> <p className='text-md text-textBase font-medium uppercase'>{project.name.length > 25 ? `${project.name.slice(0,25)}...` : project.name}
        </p> </a>
-        <img src={project.image} alt="ImgName" className='w-full h-full object-cover rounded-md my-4' />
+      <a href={project.live}>  <img src={project.image} alt="ImgName" className='w-full h-full object-cover rounded-md my-4' /></a>
 
         <div className='flex flex-1 items-center justify-between'>
             <p className='text-lg text-gray-300 '>Technologies

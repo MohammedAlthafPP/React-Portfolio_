@@ -24,7 +24,7 @@ function Skills() {
                         <img src={HTML} className='w-20 mx-auto' alt="html" />
                         <p className='my-4 text-white font-bold'>HTML</p>
                     </div>
-                    <div className='shadow-md shadow-[#040c16] hover:shadow-blue-400 hover:scale-110 duration-700 rounded-lg'>
+                    <div className='shadow-md hover:shadow-blue-400 hover:scale-110 duration-700 rounded-lg'>
                         <img src={CSS} className='w-20 mx-auto' alt="html" />
                         <p className='my-4 text-white font-bold'>CSS</p>
                     </div>
