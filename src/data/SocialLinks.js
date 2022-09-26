@@ -1,4 +1,4 @@
-import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter, IoLogoYoutube,IoLogoFacebook } from "react-icons/io5";
+import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin, IoLogoFacebook } from "react-icons/io5";
 
 export const SocialLinks = 
 [
@@ -27,11 +27,11 @@ export const SocialLinks =
         link : "https://www.facebook.com/mohammedalthaf.mongam"
     },
     
-    {
-        id: 5,
-        icon : <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer"/>,
-        name: "Twitter",
-        link : "https://twitter.com"
-    },
+    // {
+    //     id: 5,
+    //     icon : <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer"/>,
+    //     name: "Twitter",
+    //     link : "https://twitter.com"
+    // },
    
 ]

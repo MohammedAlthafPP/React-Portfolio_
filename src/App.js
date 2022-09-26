@@ -2,7 +2,6 @@
 import NavBar from "./components/navbar/NavBar";
 import MainSection from "./components/mainSection/MainSection";
 import { AnimatePresence } from "framer-motion";
-import ParticleComp from "./components/Particle";
 import "./App.css";
 import Hero from "./components/Hero";
 
