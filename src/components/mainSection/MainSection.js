@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import ProfilePic from "../../images/IMG_20220311_143021-_2_.webp";
+import ProfilePic from "../../images/IMG-0504.jpg";
 import { Projects } from "../../data/Projects";
 import "react-vertical-timeline-component/style.min.css";
 import VerticalTimeLine from "../verticalTimeline/VerticalTimeLine";
