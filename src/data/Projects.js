@@ -66,7 +66,7 @@ export const Projects =
             live: "#projects"
         },
         {
-            id: 4,
+            id: 7,
             name: "E-BUY | Ecommerce Application",
             image: EBUY,
             techs: "Node.js, Express.js, React, MongoDB",
@@ -74,7 +74,7 @@ export const Projects =
             live: "#projects"
         },
         {
-            id: 5,
+            id: 8,
             name: "BLUEPEARL | Hotel Booking Application",
             image: BLUEPEARL,
             techs: "Express.js, Handlebars View engine ,Node.js, MongoDB",
@@ -82,7 +82,7 @@ export const Projects =
             live: "https://bluepearl.ml/"
         },
         {
-            id: 6,
+            id: 9,
             name: "INCUBATION MANAGEMENT | MINI PROJECT",
             image: INCUBATION,
             techs: "Node.js, Express.js, React, MongoDB",
@@ -90,7 +90,7 @@ export const Projects =
             live: "#projects"
         },
         {
-            id: 7,
+            id: 10,
             name: "USER MANAGEMENT | MINI PROJECT",
             image: USERMANAGEMENT,
             techs: "Node.js, Express.js, React, MongoDB",
@@ -98,7 +98,7 @@ export const Projects =
             live: "#projects"
         },
         {
-            id: 8,
+            id: 11,
             name: "NETFLIX CLONE | MINI PROJECT",
             image: NETFLIXCLONE,
             techs: "React, TMDB APIs",
@@ -106,7 +106,7 @@ export const Projects =
             live: "#projects"
         },
         {
-            id: 9,
+            id: 12,
             name: "TODO APP| MINI PROJECT",
             image: TODOAPP,
             techs: "React JS",
