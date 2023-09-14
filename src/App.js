@@ -6,6 +6,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 
 function App() {
+  window.addEventListener("contextmenu",(e)=>e.preventDefault());
   return (
     <AnimatePresence initial={false}>
       <div className="flex w-screen  min-h-screen flex-col items-center justify-center relative bg-primary">
