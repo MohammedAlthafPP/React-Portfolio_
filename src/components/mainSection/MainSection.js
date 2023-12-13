@@ -7,7 +7,7 @@ import ProjectCards from "../projectCards/ProjectCards";
 import Contacts from "../followMe/Contacts";
 import { AnimatePresence, motion } from "framer-motion"
 import Skills from "../Skills";
-import Resume from "../../assets/file/Mohammed-Althaf-Resume.pdf"
+// import Resume from "../../assets/file/Mohammed-Althaf-Resume.pdf"
 function MainSection() {
   return (
     <AnimatePresence>
@@ -33,11 +33,12 @@ function MainSection() {
             {/* content box */}
             <div className="w-full  flex flex-col items-center justify-center  h-fit md:mt-[150px]" id="download" >
               <p className="text-lg text-textBase text-center " >
-              Passionate Self-taught Full Stack web developer specialising on MERN Stack with application development experience and well-versed in a variety of front-end and back-end technologies.Possess a solid commitment to the team environment and enjoy working as a team member and independently.
-
-              
+                Passionate Self-taught Full Stack web developer specialising on MERN Stack with 
+                application development experience and well-versed in a variety of front-end and 
+                back-end technologies.Possess a solid commitment to the team environment and enjoy 
+                working as a team member and independently.
               </p>
-           <a href={Resume} download={Resume}>   <motion.button whileTap={{ scale: 0.8 }}
+           <a href="#download" >   <motion.button whileTap={{ scale: 0.8 }}
                 className="w-full md:w-auto relative mt-6 inline-flex items-center
              justify-center p-0.5 mb-2 mr-2 overflow-hidden  md:text-sm font-medium
               text-gray-900 rounded-lg group bg-gradient-to-br from-green-400
