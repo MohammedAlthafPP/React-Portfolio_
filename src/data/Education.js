@@ -3,7 +3,7 @@ export const Education =
 [
     {
         id: 1,
-        date : "November 2022 - Present",
+        date : "September 2022 - Present",
         under : "DWORD CORE PRIVATE LIMITED, BANGALORE, KARNATAKA",
         institute : "DWORD CORE",
         course : "Full Stack Web Developer (MERN STACK)",
