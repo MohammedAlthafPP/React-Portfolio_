@@ -8,6 +8,7 @@ import Contacts from "../followMe/Contacts";
 import { AnimatePresence, motion } from "framer-motion"
 import Skills from "../Skills";
 // import Resume from "../../assets/file/Mohammed-Althaf-Resume.pdf"
+import BusinessCard from "../../assets/file/Althaf's-Business-Card.png"
 function MainSection() {
   return (
     <AnimatePresence>
@@ -38,7 +39,7 @@ function MainSection() {
                 back-end technologies.Possess a solid commitment to the team environment and enjoy 
                 working as a team member and independently.
               </p>
-           <a href="#download" >   <motion.button whileTap={{ scale: 0.8 }}
+           <a href={BusinessCard} download="Althaf-Business-Card">   <motion.button whileTap={{ scale: 0.8 }}
                 className="w-full md:w-auto relative mt-6 inline-flex items-center
              justify-center p-0.5 mb-2 mr-2 overflow-hidden  md:text-sm font-medium
               text-gray-900 rounded-lg group bg-gradient-to-br from-green-400
